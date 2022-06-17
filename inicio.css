@@ -1,0 +1,98 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.nav_respondive-ul {
+    display: none;
+}
+
+nav {
+    text-align: right;
+    background-color: rgb(62, 168, 255)
+}
+
+.nav_li {
+    display: inline-block;
+    padding: 12px;
+    color: #fff;
+}
+
+.nav_li:hover>a {
+    color: rgb(146, 146, 146);
+    -webkit-transition: background-color .3s linear, color .3s linear;
+    -moz-transition: background-color .3s linear, color .3s linear;
+    -ms-transition: background-color .3s linear, color .3s linear;
+    -o-transition: background-color .3s linear, color .3s linear;
+    transition: background-color .3s linear, color .3s linear;
+}
+
+.nav_li:hover {
+    color: rgb(146, 146, 146);
+    -webkit-transition: background-color .3s linear, color .3s linear;
+    -moz-transition: background-color .3s linear, color .3s linear;
+    -ms-transition: background-color .3s linear, color .3s linear;
+    -o-transition: background-color .3s linear, color .3s linear;
+    transition: background-color .3s linear, color .3s linear;
+}
+
+.nav_li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_li i {
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav_ul {
+        display: none;
+    }
+
+    .nav_respondive-ul {
+        display: block;
+    }
+}
+h2 {
+    text-align: center;
+}
+div {
+    margin-top: 100px;
+    margin-left: 450px;
+    padding: 20px;
+    background-color: rgb(103, 187, 255);
+    outline: auto;
+    width: 400px;
+}
+h1 {
+    margin: 0 0 10;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+}
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}

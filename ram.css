@@ -1,0 +1,203 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #000;
+}
+.fondo {
+
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.nav_respondive-ul {
+    display: none;
+}
+
+nav {
+    text-align: right;
+    background-color: rgb(203, 218, 0)
+}
+
+.nav_li {
+    display: inline-block;
+    padding: 12px;
+    color: #fff;
+}
+
+.nav_li:hover>a {
+    color: rgb(146, 146, 146);
+    -webkit-transition: background-color .3s linear, color .3s linear;
+    -moz-transition: background-color .3s linear, color .3s linear;
+    -ms-transition: background-color .3s linear, color .3s linear;
+    -o-transition: background-color .3s linear, color .3s linear;
+    transition: background-color .3s linear, color .3s linear;
+}
+
+.nav_li:hover {
+    color: rgb(146, 146, 146);
+    -webkit-transition: background-color .3s linear, color .3s linear;
+    -moz-transition: background-color .3s linear, color .3s linear;
+    -ms-transition: background-color .3s linear, color .3s linear;
+    -o-transition: background-color .3s linear, color .3s linear;
+    transition: background-color .3s linear, color .3s linear;
+}
+
+.nav_li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_li i {
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav_ul {
+        display: none;
+    }
+
+    .nav_respondive-ul {
+        display: block;
+    }
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.contenido {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin: 60px;
+}
+.articulos {
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    color: rgb(255, 255, 255);
+}
+
+.secciones {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.menu-secundario {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 20%;
+    margin-top: 60px;
+    /* position: fixed;
+    right: 0; */
+
+}
+
+.menu-secundario a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.link {
+    background: black;
+    color: white;
+}
+
+.btn-buy {
+    font-family: 'Montserrat', sans-serif;
+    background: radial-gradient(100% 100% at 0% 0%, #539f50 0%, #007e0f 100%);
+    -webkit-box-shadow: 0 20px 30px -6px rgb(5 23 60 / 25%);
+    box-shadow: 0 20px 30px -6px rgba(0, 97, 3, 0.25);
+    border-radius: 6px;
+    min-width: 78px;
+    padding: 0 16px;
+    left: 80px;
+    top: 100px;
+    position: relative;
+    text-decoration: none;
+}
+
+.btn-buy:hover {
+    color: rgb(146, 146, 146);
+}
+
+.btn,
+.popup .btn {
+    -webkit-transition: background-color .3s linear, color .3s linear;
+    -moz-transition: background-color .3s linear, color .3s linear;
+    -ms-transition: background-color .3s linear, color .3s linear;
+    -o-transition: background-color .3s linear, color .3s linear;
+    transition: background-color .3s linear, color .3s linear;
+    border: 0;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    height: 12%;
+    width: 20%;
+    line-height: 62px;
+    overflow: hidden;
+}
+h2 {
+    color: #cccf00;
+}
+.button-buy {
+    top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #cccf00;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: .2s;
+}
+.button-buy:hover {
+    color: #838425;
+    background: #cccf00;
+    box-shadow: 0 0 10px #cccf00, 0 0 40px #cccf00, 0 0 80px #cccf00;
+}
+.yellow {
+    color: #cccf00;
+}
